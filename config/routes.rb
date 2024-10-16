@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  devise_for :users, path: ""
+  devise_for :users, path: "", controllers: {
+    registrations: "users/registrations"
+  }
   root to: "events#index"
   resources :events, only: :index
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
