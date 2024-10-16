@@ -1,24 +1,4 @@
-# README
+# Private Events
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Implement the following associations in rails
+![image](https://github.com/user-attachments/assets/204067f5-6d2f-44a4-8919-6c35f69f2a36)
