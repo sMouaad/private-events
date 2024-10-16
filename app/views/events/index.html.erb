@@ -1,3 +1,6 @@
-<% @events.each do |event|%>
+<%@events.each do |event|%>
     <div><%= event%></div>
+<%end%>
+<%if @events.empty?%>
+    <h1>No events yet</h1>
 <%end%>
